@@ -38,7 +38,7 @@ function searchModule(e) {
             .map(
               (module) => `
 <div class="module">
-<img src="img/nmu-logo.jpg" alt"nmu-logo" />
+<img src="nmu-logo.jpg" alt"nmu-logo" />
 <div class="module-info" data-moduleID="${module.moduleCode}">
 <h3>${module.moduleName} <span><small>(${module.moduleCode})</small></span> </h3>
 
@@ -81,7 +81,7 @@ function addModuletoDOM(module) {
     <div class="single-module">
     <h1>${module.moduleName}</h1>
     <h2>Course Code: ${module.moduleCode}</h2>
-    <img src="img/nmu-logo.jpg" alt="logo" />
+    <img src="nmu-logo.jpg" alt="logo" />
     <div class="single-module-info">
     <p>Prescribed Textbook</p>
     <h3>${module.textbook}</h3>
